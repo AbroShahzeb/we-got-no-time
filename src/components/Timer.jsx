@@ -55,7 +55,7 @@ const LifespanTimer = ({ dob }) => {
   }, [dob, initialLifespan]);
 
   return (
-    <section className="w-sm bg-slate-800 mx-8 mt-4 text-gray-300 p-4 rounded-md border-[1px] border-slate-600 flex flex-col gap-2 relative overflow-hidden">
+    <section className="w-sm bg-slate-800 mx-4 mt-4 text-gray-300 p-4 rounded-md border-[1px] border-slate-600 flex flex-col gap-2 relative overflow-hidden">
       <img
         src={bonesRain}
         alt="Skulls animation"
