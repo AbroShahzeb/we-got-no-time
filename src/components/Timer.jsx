@@ -61,7 +61,7 @@ const LifespanTimer = ({ dob }) => {
         alt="Skulls animation"
         className="absolute inset-0 opacity-50"
       />
-      <p className="text-sm">You have got</p>
+      <p className="text-sm">You have got:</p>
       <div className="p-3 bg-gray-900 rounded-sm border-[1px] border-gray-700 relative z-10">
         <p>
           <span className="text-3xl font-bold">{remainingTime.years}</span>
