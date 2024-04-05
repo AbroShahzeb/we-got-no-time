@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { differenceInSeconds, addYears, differenceInDays } from "date-fns";
-import skulls from "../assets/skulls.svg";
+import bonesRain from "../assets/bones-rain.gif";
 
 const LifespanTimer = ({ dob }) => {
   const [initialLifespan] = useState(70);
@@ -57,10 +57,11 @@ const LifespanTimer = ({ dob }) => {
   return (
     <section className="w-sm bg-slate-800 mx-8 mt-4 text-gray-300 p-4 rounded-md border-[1px] border-slate-600 flex flex-col gap-2 relative overflow-hidden">
       <img
-        src={skulls}
+        src={bonesRain}
         alt="Skulls animation"
-        className="absolute inset-0 opacity-50"
+        className="absolute inset-0 opacity-50 w-sm"
       />
+
       <p className="text-sm">You have got:</p>
       <div className="p-3 bg-gray-900 rounded-sm border-[1px] border-gray-700 relative z-10">
         <p>
